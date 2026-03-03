@@ -1,0 +1,13 @@
+Reflection Questions & Answers
+
+1. What does the Detection Zone simulate in a “smart environment”?
+It simulates real-world physical sensors, such as motion detectors, proximity sensors, or cameras, that trigger automated actions when a person enters a specific physical area.
+
+2. How does the NPC decide when to move?
+The NPC continuously calculates the mathematical distance between its position and the Player's position. It decides to move only when this calculated distance drops below a predefined value (chaseDistance).
+
+3. What changes made the environment feel more responsive?
+Providing immediate multisensory feedback—such as changing the ambient light color and playing an alert sound the moment the player entered a zone—combined with the NPC dynamically reacting to the player's proximity, made the environment feel alive and responsive.
+
+4. If you had real AI, what would you improve in this scene?
+With real AI, I would add intelligent pathfinding (like Unity NavMesh) so the NPC can navigate around obstacles instead of walking in a straight line. I would also add dynamic decision-making, where the NPC could choose to hide, interact, or predict the player's movements using machine learning.
